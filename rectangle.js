@@ -1,4 +1,4 @@
-/* global Rectangle, validate, isLegalKey, $forkMeGH, $bszPageFooter: true */
+/* global Rectangle, validate, isLegalKey, $forkMeGH, $bszPageFooter,$: true */
 $(function() {
   var $width = $('#width'),
       $height = $('#height'),
