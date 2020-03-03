@@ -1,9 +1,9 @@
 module.exports=function(grunt){
   grunt.initConfig({
-      cssmin:{
-          'rectangle.min.css':'index.css'
+     uglify:{
+        'rectangle.min.js':'index.js'
       }
   });
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.registerTask('default',['cssmin']);
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.registerTask('default',['uglify']);
 }
